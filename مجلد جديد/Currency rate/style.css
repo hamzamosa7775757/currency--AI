@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    direction: rtl;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.welcome-message {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.exchange-rate-today {
+    background-color: #eaf7e3;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #4CAF50;
+    font-weight: bold;
+    display: none;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#converted-amount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4CAF50;
+}
